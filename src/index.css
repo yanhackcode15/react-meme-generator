@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    color: #2B283A;
+}
+
+.nav {
+    background-color: #F55A5A;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    justify-content: center;
+}
+
+.logo-image {
+    height: 24px;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+    color: #FFFFFF;
+}
+
+.content {
+    width: 470px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.card {
+    display: flex;
+}
+.card-content {
+    margin: 20px 10px 20px 20px;
+    width: 326px;
+}
+
+.card-content > p {
+    width: 326px;
+}
+.card-image {
+    height: 168px;
+}
+
+.symbol {
+    height: 9.5px;
+    padding-right: 5px;
+}
+.country {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    padding-right: 12px;
+}
+
+.link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    /* identical to box height */
+
+    text-decoration-line: underline;
+
+    color: #918E9B; 
+}
+
+.location {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 22px;
+    margin-top: 5px;
+}
+
+.time {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    margin-bottom: 7px;
+}
+.description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 150%;
+    /* or 15px */
+}
+
+.symbol-country-link{
+    display: flex;
+    align-items: center;
+}
+
