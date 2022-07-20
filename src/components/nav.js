@@ -5,7 +5,8 @@ export default function Nav() {
     return (
         <div className="nav">
             <img className="logo-image" src={logo} />
-            <span className="title">my travel journal</span>
+            <h2 className="title">React Meme Generator</h2>
+            <h4>React Project - 3</h4>
         </div>
     )
 }

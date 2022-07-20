@@ -1,109 +1,81 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: "Inter", sans-serif;
-    color: #2B283A;
+    font-family: "Karla", sans-serif;
+    color: #ffffff;
+    box-sizing: border-box;
 }
 
 .nav {
-    background-color: #F55A5A;
-    height: 55px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    height: 65px;
     display: flex;
     align-items: center;
-    gap: 7px;
-    justify-content: center;
 }
 
 .logo-image {
-    height: 24px;
+    height: 26px;
+    margin: 20px 7px 20px 20px;
 }
 
-.title {
+.nav >h2 {
+    margin-right: auto; 
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 24px;
+    letter-spacing: -0.1em;
+}
+
+.nav >h4 {
+    margin-right: 40px; 
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 18px;
-    letter-spacing: -0.075em;
-    color: #FFFFFF;
+    line-height: 15px;
 }
 
-.content {
-    width: 470px;
+.main {
     margin: auto;
-    margin-top: 50px;
-    margin-bottom: 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-
+    max-width: 880px;
+}
+.form {
+    color: #222222;
+    display: grid;
+    grid-template: 40px 40px/1fr 1fr;
+    gap: 17px;
+    margin-top: 36px;
 }
 
-.card {
-    display: flex;
-}
-.card-content {
-    margin: 20px 10px 20px 20px;
-    width: 326px;
-}
-
-.card-content > p {
-    width: 326px;
-}
-.card-image {
-    height: 168px;
-}
-
-.symbol {
-    height: 9.5px;
-    padding-right: 5px;
-}
-.country {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 12px;
-    letter-spacing: 0.17em;
-    padding-right: 12px;
-}
-
-.link {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10.24px;
-    line-height: 12px;
+.form-button {
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    grid-column: 1/-1;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
     /* identical to box height */
 
-    text-decoration-line: underline;
+    text-align: center;
+    letter-spacing: -0.1em;
+    border-radius: 5px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border: solid 1px #D5D4D8;
 
-    color: #918E9B; 
 }
 
-.location {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 30px;
-    margin-bottom: 22px;
-    margin-top: 5px;
-}
-
-.time {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 10px;
-    line-height: 12px;
-    margin-bottom: 7px;
-}
-.description {
+.form-input {
+    border: 1px solid #D5D4D8;
+    border-radius: 5px;
+    padding: 10px;
     font-style: normal;
     font-weight: 400;
-    font-size: 10px;
-    line-height: 150%;
-    /* or 15px */
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #0D0D0D;
 }
 
-.symbol-country-link{
-    display: flex;
-    align-items: center;
+.image {
+    width: 100%;
+    margin-top: 36px;
 }
-
